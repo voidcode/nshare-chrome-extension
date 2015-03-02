@@ -3,21 +3,18 @@ Get Nshare packets in your browser.
 
 This project has to part: 
 
-1. The [Nshare-chrome-extension](https://chrome.google.com/webstore/detail/nshare/lecapbjobhaloanokngngalcngdpklcf)
+1. The [Nshare-chrome-extension](https://chrome.google.com/webstore/detail/nshare/lecapbjobhaloanokngngalcngdpklcf) (install this)
 2. The Nshare-demon ([nshare-demon.js](https://github.com/voidcode/nshare-chrome-extension/blob/master/backend/nshare-demon.js))
 
 
-#Download the project.
-`git clone git@github.com:voidcode/nshare-chrome-extension.git`
-
-#Run the demon(nodejs).
-`cd nshare-chrome-extension/backend/`
-
-`node nshare-demon.js`
-
-#Oneline: Install then run demon:
+#OneInstall, then start the demon:
 ```git clone git@github.com:voidcode/nshare-chrome-extension.git && cd nshare-chrome-extension/backend/ && node nshare-demon.js```
 
+#Download the files.
+`git clone git@github.com:voidcode/nshare-chrome-extension.git && cd nshare-chrome-extension/backend/`
+
+#Run the demon(nodejs).
+`node nshare-demon.js`
 
 #Nshare on Android.
 
