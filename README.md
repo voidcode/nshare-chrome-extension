@@ -18,10 +18,10 @@ Remenber to install the [chrome-extension](https://chrome.google.com/webstore/de
 #Only download the project.
 `git clone git@github.com:voidcode/nshare-chrome-extension.git && cd nshare-chrome-extension/backend/`
 
-#Then, run the demon(nodejs).
+#Then, run the demon.
 `nodejs nshare-demon.js`
 
-#How to install nodejs on Ubuntu 14.04+.
+#How to install nodejs on Ubuntu.
 `curl -sL https://deb.nodesource.com/setup | sudo bash -`
 
 `sudo apt-get install nodejs`
