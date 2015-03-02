@@ -13,8 +13,9 @@ $(function(){
 	function newPacketListItem(item){
 		return '<a href="'+item.url+'" target="_blank">'+
 					'<div class="item">'+
-	        			'<div class="headline">From '+item.fromip+'</div>'+
+	        			'<div class="headline">From: '+item.fromip+'</div>'+
 	        			'<div class="body">'+item.url+'</div>'+
+	        			'<div class="created">Date: '+new Date(item.created).toString("M/d/yyyy")+'</div>'+
 	        		'</div>'+
 	        	'</a>';
 	}
@@ -27,11 +28,10 @@ $(function(){
 				for(var i=0; i<packets.length; i++){
 					holder += newPacketListItem(packets[i]);
 				}
+				$('.packetlist .center').html(holder);
 			} else {
-				holder += '<div class="no-packets">Empty</div>';
-				
+				$('.packetlist .center').html('<div class="no-packets">Empty</div>');
 			}
-			$('.packetlist .center').html(holder);
 		});
 	}
 	//inti
