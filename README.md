@@ -18,10 +18,7 @@ Get [NshareOnAndroid](https://play.google.com/store/apps/details?id=com.voidcode
 #Run the demon(nodejs).
 `cd nshare-chrome-extension/backend/`
 
-`node backend.js`
-
-#Install, then run-demon(oneline).
-`git clone git@github.com:voidcode/nshare-chrome-extension.git && cd nshare-chrome-extension/backend/ && node nshare-demon.js`
-
-
 `node nshare-demon.js`
+
+#Or just do: Install then start nshare-demon.js
+`git clone git@github.com:voidcode/nshare-chrome-extension.git && cd nshare-chrome-extension/backend/ && node nshare-demon.js`
