@@ -18,4 +18,4 @@ Get [NshareOnAndroid](https://play.google.com/store/apps/details?id=com.voidcode
 #Run the demon(nodejs).
 `cd nshare-chrome-extension/backend/`
 
-`node backend.js`
+`node nshare-demon.js`
