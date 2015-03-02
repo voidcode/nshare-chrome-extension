@@ -10,6 +10,9 @@ This project has to part:
 #OneInstall, then start the demon:
 ```git clone git@github.com:voidcode/nshare-chrome-extension.git && cd nshare-chrome-extension/backend/ && node nshare-demon.js```
 
+Done.
+
+
 #Download the files.
 `git clone git@github.com:voidcode/nshare-chrome-extension.git && cd nshare-chrome-extension/backend/`
 
