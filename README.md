@@ -7,10 +7,10 @@ This project has to part:
 2. The Nshare-demon ([nshare-demon.js](https://github.com/voidcode/nshare-chrome-extension/blob/master/backend/nshare-demon.js))
 
 
-#OneInstall, then start the demon:
+#Oneline, install then start the demon:
 ```git clone git@github.com:voidcode/nshare-chrome-extension.git && cd nshare-chrome-extension/backend/ && node nshare-demon.js```
 
-Done.
+Done... :)
 
 
 #Download the files.
