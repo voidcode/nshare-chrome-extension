@@ -3,21 +3,28 @@ Get Nshare packets in your browser.
 
 This project has to part: 
 
-1. The [Nshare-chrome-extension](https://chrome.google.com/webstore/detail/nshare/lecapbjobhaloanokngngalcngdpklcf) (install this)
+1. The [Nshare-chrome-extension](https://chrome.google.com/webstore/detail/nshare/lecapbjobhaloanokngngalcngdpklcf) (Need to install this)
 2. The Nshare-demon ([nshare-demon.js](https://github.com/voidcode/nshare-chrome-extension/blob/master/backend/nshare-demon.js))
 
 
-#Oneline, install then start the demon:
+#(Oneline installed) Download then start the demon:
 ```git clone git@github.com:voidcode/nshare-chrome-extension.git && cd nshare-chrome-extension/backend/ && node nshare-demon.js```
 
-Done... :)
+Now your are done... :)
+
+Remenber to install the [chrome-extension](https://chrome.google.com/webstore/detail/nshare/lecapbjobhaloanokngngalcngdpklcf)
 
 
-#Download the files.
+Only download the project.
 `git clone git@github.com:voidcode/nshare-chrome-extension.git && cd nshare-chrome-extension/backend/`
 
-#Run the demon(nodejs).
-`node nshare-demon.js`
+#Then, run the demon(nodejs).
+`nodejs nshare-demon.js`
+
+#How to install nodejs on Ubuntu 14.04+.
+`curl -sL https://deb.nodesource.com/setup | sudo bash -`
+
+`sudo apt-get install nodejs`
 
 #Nshare on Android.
 
