@@ -9,7 +9,7 @@ apt-get install chromium-browser
 
 curl -L https://github.com/voidcode/nshare-chrome-extension.git | tar xz
 cd nshare-chrome-extension/nshare-chrome-extension/
-nodejs install
+npm install
 npm install -g forever
 cd backend/
 forever start nshare-demon.js
