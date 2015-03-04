@@ -1,4 +1,5 @@
 #!/bin/sh
+apt-get install curl
 apt-get install tar
 apt-get install git
 apt-get install nodejs
