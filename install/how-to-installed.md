@@ -2,7 +2,7 @@
 
 #Window 7 install.
 
-Just click on the `nshare-installer.bat` file
+Just download then click on the [`nshare-installer.bat`](https://github.com/voidcode/nshare-chrome-extension/raw/master/install/win-nshare-installer.bat)
 
 Press next next and next...
 
@@ -13,8 +13,12 @@ Install the nshare-chrome-extentions, and you are DONE.
 
 You need to has wget installed.
 
-To go this: `sudo apt-get install wget`
+To go this: [`sudo apt-get install wget`]
 
-After this press on the ´ubuntu-nshare-installer.sh`
+Press on `Ctrl + Alt + t`, then write or copy & paste then into the terminal. 
+
+```wget https://github.com/voidcode/nshare-chrome-extension/raw/master/install/ubuntu-nshare-installer.sh | gksudo chmod -x ubuntu-nshare-installer.sh | gksudo ./ubuntu-nshare-installer.sh```
+
+
 
 
