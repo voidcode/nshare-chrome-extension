@@ -9,7 +9,7 @@
   "author": "Voidcode",
   "license": "MIT",
   "repository": {
-    "type": "git".
+    "type": "git",
     "url": "https://github.com/voidcode/nshare-chrome-extension.git"
   },
   "dependencies": {
