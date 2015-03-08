@@ -1,6 +1,8 @@
 # Nshare-chrome-extension.
 Get Nshare packets in your browser.
 
+![Nshare-chrome-extension](https://raw.githubusercontent.com/voidcode/nshare-chrome-extension/master/PR/demo1.png)
+
 This extension has to parts: 
 
 1. The nshare-demon.js [nshare-demon.js](https://github.com/voidcode/nshare-chrome-extension/blob/master/backend/nshare-demon.js)
